@@ -7,11 +7,17 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
                 
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+<<<<<<< HEAD
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/javaa"/>
         <dependent-module archiveName="AQFirstServlet-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/AQFirstServlet/AQFirstServlet">
             <dependency-type>uses</dependency-type>
         </dependent-module>
                 
+=======
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+>>>>>>> 7ab93d0 (added-dashboards)
         <property name="context-root" value="Employee_Leave_Management_System"/>
                 
         <property name="java-output-path" value="/Employee_Leave_Management_System/build/classes"/>
